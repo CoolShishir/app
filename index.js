@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const passport = require('passport');
 //const GoogleStrategy = require('passport-google-oauth20').Strategy;
-const GoogleStrategy = require('passport-google-oauth').OAuth2Strategy;
+const GoogleStrategy = require('passport-google-oauth');
 const keys = require('./config/keys');
 
 app.get('/',(req,res) => {
